@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   new_array=[]
   name_hash.collect do |key,value|
-    value
+  new_array<<value
   end
-  if value 
+  if value
 end
